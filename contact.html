@@ -1,0 +1,123 @@
+<!-- contact.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us | Together, On Purpose</title>
+  <meta name="description" content="Contact Together, On Purpose for help, questions, or support." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="/" aria-label="Together, On Purpose home">
+        <div class="logo" aria-hidden="true"></div>
+        <div class="brand-text">
+          <div class="brand-name">Together, On Purpose</div>
+          <div class="brand-sub">A monthly ritual to reconnect, reflect, and grow</div>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="/about.html">About Us</a>
+        <a href="/subscription.html">Subscription Details</a>
+        <a href="/boxes.html">Current Boxes</a>
+        <a href="/contact.html" aria-current="page">Contact Us</a>
+      </nav>
+
+      <div class="topbar-cta">
+        <a class="btn btn-ghost" href="/#pricing">Pricing</a>
+        <a class="btn btn-primary" href="/subscription.html">Subscribe</a>
+      </div>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav" hidden>
+      <a href="/about.html">About Us</a>
+      <a href="/subscription.html">Subscription Details</a>
+      <a href="/boxes.html">Current Boxes</a>
+      <a href="/contact.html" aria-current="page">Contact Us</a>
+      <a href="/#pricing">Pricing</a>
+      <a class="btn btn-primary mobile-cta" href="/subscription.html">Subscribe</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="band band-hero">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2>Contact Us</h2>
+          <p>Questions about shipping, billing, themes, or your subscription? Reach out.</p>
+        </div>
+
+        <div class="inside-grid">
+          <div class="inside-list reveal">
+            <h3 style="margin-top:0;">Fast options</h3>
+            <ul class="bullets">
+              <li><strong>Subscription questions:</strong> billing, pauses, cancellations</li>
+              <li><strong>Shipping:</strong> address updates, delivery issues</li>
+              <li><strong>General:</strong> press, partnerships, wholesale</li>
+            </ul>
+
+            <div class="note">
+              Add your support email here once you have it. Example: support@togetheronpurpose.com
+            </div>
+          </div>
+
+          <div class="inside-list reveal" data-delay="1">
+            <h3 style="margin-top:0;">Contact form (placeholder)</h3>
+            <p class="muted" style="line-height:1.7; margin-top:8px;">
+              This is a visual placeholder so the page looks complete. If you want a working form,
+              you can embed a form provider, Squarespace form block, or connect a simple backend later.
+            </p>
+
+            <form class="contact-form" action="#" method="post" onsubmit="return false;">
+              <label class="field">
+                <span>Name</span>
+                <input type="text" placeholder="Your name" />
+              </label>
+
+              <label class="field">
+                <span>Email</span>
+                <input type="email" placeholder="you@example.com" />
+              </label>
+
+              <label class="field">
+                <span>Message</span>
+                <textarea rows="5" placeholder="How can we help?"></textarea>
+              </label>
+
+              <button class="btn btn-primary btn-full" type="submit">Send message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div class="footer-links">
+        <a href="/about.html">About Us</a>
+        <a href="/subscription.html">Subscription Details</a>
+        <a href="/boxes.html">Current Boxes</a>
+        <a href="/contact.html">Contact Us</a>
+      </div>
+
+      <p class="disclaimer">
+        Disclaimer: This product is educational and wellness-oriented. It is not therapy, not medical advice, and not a substitute for professional care.
+        If you feel unsafe in your relationship, seek immediate help from local emergency services or a qualified professional.
+      </p>
+
+      <p class="copyright">© <span id="year"></span> Together, On Purpose</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

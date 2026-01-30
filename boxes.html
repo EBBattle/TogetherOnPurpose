@@ -1,0 +1,189 @@
+<!-- boxes.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Current Boxes | Together, On Purpose</title>
+  <meta name="description" content="Current box themes and what’s included." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="/" aria-label="Together, On Purpose home">
+        <div class="logo" aria-hidden="true"></div>
+        <div class="brand-text">
+          <div class="brand-name">Together, On Purpose</div>
+          <div class="brand-sub">A monthly ritual to reconnect, reflect, and grow</div>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="/about.html">About Us</a>
+        <a href="/subscription.html">Subscription Details</a>
+        <a href="/boxes.html" aria-current="page">Current Boxes</a>
+        <a href="/contact.html">Contact Us</a>
+      </nav>
+
+      <div class="topbar-cta">
+        <a class="btn btn-ghost" href="/#pricing">Pricing</a>
+        <a class="btn btn-primary" href="/subscription.html">Subscribe</a>
+      </div>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav" hidden>
+      <a href="/about.html">About Us</a>
+      <a href="/subscription.html">Subscription Details</a>
+      <a href="/boxes.html" aria-current="page">Current Boxes</a>
+      <a href="/contact.html">Contact Us</a>
+      <a href="/#pricing">Pricing</a>
+      <a class="btn btn-primary mobile-cta" href="/subscription.html">Subscribe</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="band band-hero">
+      <div class="wrap hero-grid">
+        <div class="hero-left reveal">
+          <div class="pill">
+            <span class="dot" aria-hidden="true"></span>
+            Current boxes
+          </div>
+          <h1 class="hero-title">Themes you can feel.</h1>
+          <p class="hero-sub">
+            Each month has a focused theme that helps you reset the tone, talk with structure, and stay on the same side.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="/subscription.html">Subscribe</a>
+            <a class="btn btn-ghost" href="/#inside">What’s inside</a>
+          </div>
+        </div>
+
+        <aside class="hero-right reveal" data-delay="2">
+          <div class="side-card">
+            <h2 class="side-title">Time commitment</h2>
+            <p class="side-copy">
+              Most couples spend <strong>45 to 90 minutes</strong> once per month. Optional mini check-ins can be 10 minutes.
+            </p>
+            <div class="divider"></div>
+            <div class="outcome">
+              <div class="outcome-label">Goal</div>
+              <div class="outcome-quote">More clarity, less spiraling.</div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="band band-soft">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2>Current theme</h2>
+          <p>This is a simple page you can update each month.</p>
+        </div>
+
+        <div class="inside-grid">
+          <div class="inside-media reveal">
+            <img
+              class="inside-img"
+              src="images/month-one-safety-grounding.png"
+              alt="Month One: Safety & Grounding box and contents."
+              onerror="this.style.display='none'"
+            />
+            <div class="img-fallback">
+              <div class="img-fallback-title">Add your current theme photo</div>
+              <div class="img-fallback-sub">Place an image at <code>images/month-one-safety-grounding.png</code></div>
+            </div>
+          </div>
+
+          <div class="inside-list reveal" data-delay="1">
+            <h3 style="margin-top:0">Month One: Safety &amp; Grounding</h3>
+            <p class="muted" style="margin-top:6px; line-height:1.6">
+              Create a tone of safety and connection before you talk about anything hard.
+            </p>
+
+            <ul class="bullets">
+              <li><strong>Safety rules</strong> and pause scripts to reduce escalation</li>
+              <li><strong>Conversation prompts</strong> that guide without forcing</li>
+              <li><strong>Reflection tools</strong> to name what mattered and choose next steps</li>
+              <li><strong>Keepsake ritual item</strong> to anchor the month</li>
+            </ul>
+
+            <div class="hero-actions" style="margin-top:14px">
+              <a class="btn btn-primary" href="/subscription.html">Subscribe</a>
+              <a class="btn btn-ghost" href="/contact.html">Ask a question</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2>Upcoming themes</h2>
+          <p>Placeholders you can rename later.</p>
+        </div>
+
+        <div class="preview">
+          <article class="preview-card reveal">
+            <div class="preview-top">
+              <div class="preview-kicker">Next</div>
+              <h3 class="preview-title">Repair &amp; Reconnection</h3>
+              <p class="preview-copy">A guided path back to each other after tension or distance.</p>
+            </div>
+          </article>
+
+          <article class="preview-card reveal" data-delay="1">
+            <div class="preview-top">
+              <div class="preview-kicker">Later</div>
+              <h3 class="preview-title">Boundaries &amp; Needs</h3>
+              <p class="preview-copy">Clear asks, kind limits, and fewer misunderstandings.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="band band-cta">
+      <div class="wrap cta reveal">
+        <div>
+          <h2>Want the next theme delivered?</h2>
+          <p>Subscribe to receive each monthly box automatically.</p>
+        </div>
+        <div class="cta-actions">
+          <a class="btn btn-primary" href="/subscription.html">Subscribe</a>
+          <a class="btn btn-ghost" href="/#pricing">Pricing</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div class="footer-links">
+        <a href="/about.html">About Us</a>
+        <a href="/subscription.html">Subscription Details</a>
+        <a href="/boxes.html">Current Boxes</a>
+        <a href="/contact.html">Contact Us</a>
+      </div>
+
+      <p class="disclaimer">
+        Disclaimer: This product is educational and wellness-oriented. It is not therapy, not medical advice, and not a substitute for professional care.
+        If you feel unsafe in your relationship, seek immediate help from local emergency services or a qualified professional.
+      </p>
+
+      <p class="copyright">© <span id="year"></span> Together, On Purpose</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

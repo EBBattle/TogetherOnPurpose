@@ -1,0 +1,222 @@
+<!-- subscription.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Subscription Details | Together, On Purpose</title>
+  <meta name="description" content="Subscription details, shipping, billing, and pause/cancel info." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="/" aria-label="Together, On Purpose home">
+        <div class="logo" aria-hidden="true"></div>
+        <div class="brand-text">
+          <div class="brand-name">Together, On Purpose</div>
+          <div class="brand-sub">A monthly ritual to reconnect, reflect, and grow</div>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="/about.html">About Us</a>
+        <a href="/subscription.html" aria-current="page">Subscription Details</a>
+        <a href="/boxes.html">Current Boxes</a>
+        <a href="/contact.html">Contact Us</a>
+      </nav>
+
+      <div class="topbar-cta">
+        <a class="btn btn-ghost" href="/#pricing">Pricing</a>
+        <a class="btn btn-primary" href="/subscription.html">Subscribe</a>
+      </div>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav" hidden>
+      <a href="/about.html">About Us</a>
+      <a href="/subscription.html" aria-current="page">Subscription Details</a>
+      <a href="/boxes.html">Current Boxes</a>
+      <a href="/contact.html">Contact Us</a>
+      <a href="/#pricing">Pricing</a>
+      <a class="btn btn-primary mobile-cta" href="/subscription.html">Subscribe</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="band band-hero">
+      <div class="wrap hero-grid">
+        <div class="hero-left reveal">
+          <div class="pill">
+            <span class="dot" aria-hidden="true"></span>
+            Subscription details
+          </div>
+          <h1 class="hero-title">Simple, flexible,<br />no pressure.</h1>
+          <p class="hero-sub">
+            Clear expectations on what you receive, when it ships, and how billing works.
+            Pause or cancel anytime.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#plans">Choose a plan</a>
+            <a class="btn btn-ghost" href="/boxes.html">See current boxes</a>
+          </div>
+        </div>
+
+        <aside class="hero-right reveal" data-delay="2">
+          <div class="side-card">
+            <h2 class="side-title">What you get each month</h2>
+            <p class="side-copy">
+              A themed conversation ritual with safety rules, prompts, reflection tools, and a keepsake component.
+            </p>
+            <div class="chips" role="list">
+              <span class="chip" role="listitem">Safety rules + pause scripts</span>
+              <span class="chip" role="listitem">Conversation prompts</span>
+              <span class="chip" role="listitem">Reflection + next steps</span>
+              <span class="chip" role="listitem">Giftable packaging</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="band band-soft" id="plans">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2>Plans</h2>
+          <p>Match the rhythm that works for you.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card reveal">
+            <div class="price-head">
+              <h3>Monthly</h3>
+              <div class="price">$39<span class="price-sub">/month</span></div>
+            </div>
+            <ul class="price-list">
+              <li>One themed box each month</li>
+              <li>Guidebook + prompts + reflection</li>
+              <li>Keepsake ritual item</li>
+            </ul>
+            <a class="btn btn-primary btn-full" href="#">Subscribe monthly</a>
+          </article>
+
+          <article class="price-card price-featured reveal" data-delay="1">
+            <div class="badge">Best value</div>
+            <div class="price-head">
+              <h3>Quarterly</h3>
+              <div class="price">$109<span class="price-sub">/3 months</span></div>
+            </div>
+            <ul class="price-list">
+              <li>Save versus monthly</li>
+              <li>Priority theme drops</li>
+              <li>One box each month</li>
+            </ul>
+            <a class="btn btn-primary btn-full" href="#">Subscribe quarterly</a>
+          </article>
+
+          <article class="price-card reveal" data-delay="2">
+            <div class="price-head">
+              <h3>Gift</h3>
+              <div class="price">$45<span class="price-sub">/one-time</span></div>
+            </div>
+            <ul class="price-list">
+              <li>Giftable packaging</li>
+              <li>Perfect for anniversaries</li>
+              <li>Includes theme materials</li>
+            </ul>
+            <a class="btn btn-primary btn-full" href="#">Gift a box</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2>Shipping and billing</h2>
+          <p>Swap these placeholders with your real policy once you decide.</p>
+        </div>
+
+        <div class="preview">
+          <article class="preview-card reveal">
+            <div class="preview-top">
+              <div class="preview-kicker">Shipping</div>
+              <h3 class="preview-title">Ships once per month</h3>
+              <p class="preview-copy">
+                Typical shipping window: <strong>first week of each month</strong>.
+                You can publish a cutoff date later.
+              </p>
+            </div>
+          </article>
+
+          <article class="preview-card reveal" data-delay="1">
+            <div class="preview-top">
+              <div class="preview-kicker">Billing</div>
+              <h3 class="preview-title">Auto-renewing plans</h3>
+              <p class="preview-copy">
+                Monthly and quarterly plans renew automatically.
+                You can pause or cancel before the next billing date.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="faq">
+          <details class="faq-item reveal">
+            <summary>How do pauses work?</summary>
+            <p>Placeholder: Pause your next shipment from your account page. Your billing date shifts accordingly.</p>
+          </details>
+
+          <details class="faq-item reveal" data-delay="1">
+            <summary>Can I cancel anytime?</summary>
+            <p>Placeholder: Yes. Cancel before the next billing date to avoid renewal.</p>
+          </details>
+
+          <details class="faq-item reveal" data-delay="2">
+            <summary>Do you ship internationally?</summary>
+            <p>Placeholder: Set your regions here once you decide your shipping strategy.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="band band-cta">
+      <div class="wrap cta reveal">
+        <div>
+          <h2>Want help choosing?</h2>
+          <p>If gifting or shipping is your question, contact us and we’ll point you to the right option.</p>
+        </div>
+        <div class="cta-actions">
+          <a class="btn btn-primary" href="/contact.html">Contact us</a>
+          <a class="btn btn-ghost" href="/boxes.html">Current boxes</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div class="footer-links">
+        <a href="/about.html">About Us</a>
+        <a href="/subscription.html">Subscription Details</a>
+        <a href="/boxes.html">Current Boxes</a>
+        <a href="/contact.html">Contact Us</a>
+      </div>
+
+      <p class="disclaimer">
+        Disclaimer: This product is educational and wellness-oriented. It is not therapy, not medical advice, and not a substitute for professional care.
+        If you feel unsafe in your relationship, seek immediate help from local emergency services or a qualified professional.
+      </p>
+
+      <p class="copyright">© <span id="year"></span> Together, On Purpose</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
