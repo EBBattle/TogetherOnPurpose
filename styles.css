@@ -728,3 +728,39 @@ copyright, .copyright {
     grid-template-columns: 1fr;
   }
 }
+
+.box-gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  padding: 12px;
+}
+
+.box-shot {
+  margin: 0;
+  border-radius: calc(var(--radius) - 6px);
+  overflow: hidden;
+  border: 1px solid rgba(30, 28, 24, 0.12);
+  background: rgba(255, 255, 255, 0.45);
+}
+
+.box-shot img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.caption {
+  padding: 10px 12px;
+  font-size: 13px;
+  color: rgba(30, 28, 24, 0.70);
+  border-top: 1px solid rgba(30, 28, 24, 0.10);
+  background: rgba(255, 255, 255, 0.35);
+}
+
+@media (min-width: 860px) {
+  .box-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
