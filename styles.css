@@ -764,3 +764,7 @@ copyright, .copyright {
   }
 }
 
+.box-shot img,
+.inside-img {
+  transform: none !important;
+}
