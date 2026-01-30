@@ -1,4 +1,4 @@
-// script.js
+// script.js 
 
 const yearEl = document.getElementById("year");
 if (yearEl) yearEl.textContent = String(new Date().getFullYear());
@@ -14,7 +14,7 @@ if (navToggle && mobileNav) {
     mobileNav.hidden = isOpen;
   });
 
-  
+
   mobileNav.querySelectorAll("a").forEach((a) => {
     a.addEventListener("click", () => {
       navToggle.setAttribute("aria-expanded", "false");
@@ -22,6 +22,7 @@ if (navToggle && mobileNav) {
     });
   });
 }
+
 
 const revealEls = document.querySelectorAll(".reveal");
 
@@ -44,10 +45,11 @@ if (revealEls.length) {
   revealEls.forEach((el) => io.observe(el));
 }
 
-
 document.querySelectorAll('a[href^="#"]').forEach((link) => {
   link.addEventListener("click", (e) => {
     const href = link.getAttribute("href");
+
+
     if (!href || href === "#") return;
 
     const target = document.querySelector(href);
@@ -57,3 +59,4 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
     target.scrollIntoView({ behavior: "smooth", block: "start" });
   });
 });
+
